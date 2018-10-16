@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="432.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarary.mangement.system.FXMLSignUpController">
+   <children>
+      <JFXTextField fx:id="userName" layoutX="111.0" layoutY="123.0" prefHeight="25.0" prefWidth="219.0" promptText="UserName">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="password" layoutX="107.0" layoutY="184.0" prefHeight="1.0" prefWidth="219.0" promptText="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton layoutX="252.0" layoutY="389.0" onAction="#CreateAccount" prefHeight="41.0" prefWidth="109.0" style="-fx-background-color: #2196f3;" text="Create" textFill="#e4c4c4">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="77.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../libraray/images/lock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="77.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../libraray/images/key.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="252.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../libraray/images/enter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="77.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../libraray/images/envelope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="77.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../libraray/images/phone-receiver.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="email" layoutX="111.0" layoutY="248.0" prefHeight="25.0" prefWidth="219.0" promptText="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="phone" layoutX="107.0" layoutY="319.0" prefHeight="25.0" prefWidth="219.0" promptText="Phone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>
